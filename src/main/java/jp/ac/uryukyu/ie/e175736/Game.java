@@ -1,4 +1,4 @@
-package jp.ac.uryukyu.ie.e175736_e175767;
+package jp.ac.uryukyu.ie.e175736;
 
 public class Game {
     public static void main(String[] args){

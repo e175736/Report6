@@ -1,4 +1,4 @@
-package jp.ac.uryukyu.ie.e175736_e175767;
+package jp.ac.uryukyu.ie.e175736;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,6 +12,11 @@ public class Field {
         this.xnum = xnum;
         this.ynum = ynum;
     }
+
+    public Field() {
+
+    }
+
     public void prepare(){
         this.komaList = new ArrayList<>();
         for(int y=0;y<this.ynum;y++){
@@ -49,5 +54,8 @@ public class Field {
     }
 
     public void putKoma(int i, int i1, String b) {
+    }
+
+    public void changeStoneColor(int i, int i1, String w) {
     }
 }

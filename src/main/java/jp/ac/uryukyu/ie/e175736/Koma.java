@@ -1,4 +1,4 @@
-package jp.ac.uryukyu.ie.e175736_e175767;
+package jp.ac.uryukyu.ie.e175736;
 
 public class Koma {
     private String state; // オセロの石の色が、黒ならB、 白ならW、 何も無いならE　とする。
@@ -28,4 +28,10 @@ public class Koma {
 
     }
 
+    public String getColor() {
+        return getColor();
+
+
+
+    }
 }
